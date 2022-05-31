@@ -5,6 +5,7 @@
 
 // @import '~material-design-icons/iconfont/material-icons.css';
 
+
 *,:after,:before {
   box-sizing: border-box;
   border: 0 solid
@@ -5203,11 +5204,11 @@ mat-footer-row,mat-header-row,mat-row,td.mat-cell,td.mat-footer-cell,th.mat-head
 }
 
 .hero-container__suit__img {
-  width: 100%;
+  width: 800px;
   display: block;
   position: absolute;
-  top: 0;
-  left: 0
+  top: -20px;
+  left: -237px;
 }
 
 .hero-container__suit__jet {
@@ -5255,15 +5256,15 @@ mat-footer-row,mat-header-row,mat-row,td.mat-cell,td.mat-footer-cell,th.mat-head
   position: relative;
   z-index: 2;
   text-align: center;
-  width: 58%
+  width: 48%
 }
 
 .hero-container__heading--wide {
-  width: 64%
+  width: 54%
 }
 
 .hero-container__heading--xwide {
-  width: 74%
+  width: 64%
 }
 
 .hero-container__heading--full {
@@ -5310,11 +5311,11 @@ mat-footer-row,mat-header-row,mat-row,td.mat-cell,td.mat-footer-cell,th.mat-head
   }
 
   .hero-container__heading--wide {
-      width: 64%
+      width: 54%
   }
 
   .hero-container__heading--xwide {
-      width: 74%
+      width: 64%
   }
 
   .hero-container__heading--full {

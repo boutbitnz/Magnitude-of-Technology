@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'magoftech',
   templateUrl: './magoftech.component.html',
   styleUrls: ['./magoftech.component.scss']
 })

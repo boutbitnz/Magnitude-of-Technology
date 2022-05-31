@@ -31,10 +31,16 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/styles.b2a62ec1d2682c5d647a.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/app.js",
+              "src/assets/js/api.js",
+              "src/assets/js/shared/jquery.min.js",
+              "src/polyfills-es2015.js",
+              "src/runtime-es2015.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -91,7 +97,7 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "main": "src/test.ts",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": "src/polyfills-es2015.js",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "inlineStyleLanguage": "scss",
@@ -100,10 +106,16 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/styles.b2a62ec1d2682c5d647a.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/app.js",
+              "src/assets/js/api.js",
+              "src/assets/js/shared/jquery.min.js",
+              "src/polyfills-es2015.js",
+              "src/runtime-es2015.js"
+            ]
           }
         }
       }

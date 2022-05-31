@@ -1,5 +1,6 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {OverlayModule} from '@angular/cdk/overlay';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './magoftech.component';
 import { HeaderModule } from './component/header/header.module';
@@ -17,6 +18,7 @@ import { PageHomePageModule } from './view/page-home-page/page-home-page.module'
   ],
   imports: [
     BrowserModule,
+    OverlayModule,
     AppRoutingModule,
     HeaderModule,
     PageHomePageModule
@@ -27,7 +29,8 @@ import { PageHomePageModule } from './view/page-home-page/page-home-page.module'
     CUSTOM_ELEMENTS_SCHEMA,
     NO_ERRORS_SCHEMA
   ],
+  entryComponents: [AppComponent],
 
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
